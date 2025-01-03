@@ -25,8 +25,8 @@ O script instala as seguintes ferramentas:
 1. Clone este repositório ou baixe o arquivo `install_tools.sh`.
 
    ```bash
-   git clone <url-do-repositorio>
-   cd <diretorio-do-repositorio>
+   git clone git@github.com:juliofilizzola/Install-Dependencies.git
+   cd Install-Dependencies
    ```
 
 2. Torne o arquivo executável:
