@@ -38,5 +38,5 @@ help:
 	@echo "  make clean     	- Remove permissões executáveis do script"
 	@echo "  ----------------------------------------------------- "
 	@echo "  make install_dev      - Executa o script de instalação dev"
-	@echo "  make clean     	- Remove permissões executáveis do script dev"
+	@echo "  make clean_dev     	- Remove permissões executáveis do script dev"
 	@echo "  make help      	- Exibe esta mensagem de ajuda"
