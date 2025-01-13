@@ -9,11 +9,8 @@ O script instala as seguintes ferramentas:
 - **Git**: Sistema de controle de versão distribuído.
 - **JetBrains Toolbox**: Gerenciador de IDEs JetBrains.
 - **Docker**: Plataforma de conteinerização.
-- **Spotify**: Aplicativo de música.
 - **Visual Studio Code**: Editor de código leve e versátil.
 - **Vim**: Editor de texto em terminal.
-- **Warp**: Terminal moderno para desenvolvedores.
-- **Postman**: Ferramenta para teste de APIs.
 
 ## Requisitos
 
