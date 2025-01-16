@@ -1,6 +1,7 @@
 # Nome do script
 SCRIPT = install_dependencies.sh
 SCRIPT_2 = Install_dev.sh
+UPDATE_SCRIPT = update_dependencies.sh
 
 #
 .PHONY: all
@@ -29,6 +30,10 @@ clean_dev:
 	@echo "Removendo permissões executáveis do script..."
 	@chmod -x $(SCRIPT_2)
 
+update:
+	@echo "Update..."
+	@chmod +x (UPDATE_SCRIPT)
+	@./(UPDATE_SCRIPT)
 
 # Alvo de ajuda
 .PHONY: help
