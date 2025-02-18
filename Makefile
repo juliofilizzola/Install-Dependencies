@@ -12,28 +12,28 @@ all: install
 install: $(SCRIPT)
 	@echo "Executando o script de instalação..."
 	@chmod +x $(SCRIPT)
-	@./$(SCRIPT)
+	@./Shell/$(SCRIPT)
 
 INSTALL_DEV: $(SCRIPT_2)
 	@echo "Executando o script de instalação..."
 	@chmod +x $(SCRIPT_2)
-	@./$(SCRIPT_2)
+	@./Shell/$(SCRIPT_2)
 
 
 # Alvo para limpar permissões do script (opcional)
 .PHONY: clean
 clean:
 	@echo "Removendo permissões executáveis do script..."
-	@chmod -x $(SCRIPT)
+	@chmod -x ./Shell/$(SCRIPT)
 
 clean_dev:
 	@echo "Removendo permissões executáveis do script..."
-	@chmod -x $(SCRIPT_2)
+	@chmod -x ./Shell/$(SCRIPT_2)
 
 update:
 	@echo "Update..."
 	@chmod +x (UPDATE_SCRIPT)
-	@./(UPDATE_SCRIPT)
+	@./Shell/(UPDATE_SCRIPT)
 
 # Alvo de ajuda
 .PHONY: help
