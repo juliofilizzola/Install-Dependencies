@@ -9,11 +9,8 @@ O script instala as seguintes ferramentas:
 - **Git**: Sistema de controle de versão distribuído.
 - **JetBrains Toolbox**: Gerenciador de IDEs JetBrains.
 - **Docker**: Plataforma de conteinerização.
-- **Spotify**: Aplicativo de música.
 - **Visual Studio Code**: Editor de código leve e versátil.
 - **Vim**: Editor de texto em terminal.
-- **Warp**: Terminal moderno para desenvolvedores.
-- **Postman**: Ferramenta para teste de APIs.
 
 ## Requisitos
 
@@ -32,13 +29,13 @@ O script instala as seguintes ferramentas:
 2. Torne o arquivo executável:
 
    ```bash
-   chmod +x install_tools.sh
+   chmod +x install_dependencies.sh
    ```
 
 3. Execute o script com permissão de administrador:
 
    ```bash
-   sudo ./install_tools.sh
+   sudo ./install_dependencies.sh
    ```
 
 4. Aguarde a conclusão da instalação.
